@@ -27,8 +27,8 @@ def hitungSegitiga (s1, s2, s3):
     k = (s1+s2+s3)/2 #keliling segitiga
     l =  (k*(k-s1)*(k-s2)*(k-s3)) ** 0.5
 
-    print("Keliling Segitiga dengan sisi pertama "+str(s1)+" cm, sisi kedua "+str(s2)+", dan sisi ketiga " + str(s3) + " cm, adalah" + str(k))
-    print("Luas Segitiga dengan sisi pertama "+str(s1)+" cm, sisi kedua "+str(s2)+", dan sisi ketiga " + str(s3) + " cm, adalah" + str(l))
+    print("Keliling Segitiga dengan sisi "+str(s1)+" cm, "+str(s2)+", dan " + str(s3) + " cm, adalah " + str(k))
+    print("Keliling Segitiga dengan sisi "+str(s1)+" cm, "+str(s2)+", dan " + str(s3) + " cm, adalah " + str(l))
 
 
 print("Program untuk menghitung luas dan keliling dari lingkaran, persegi, dan persegi panjang")
@@ -47,7 +47,7 @@ elif jenis=="3":
     hitungPersegiPanjang(p, l)
 elif jenis=="4":
     s1 = int(input("Masukkan ukuran sisi pertama segitiga (dalam cm): "))
-    s2 = int(input("Masukkan ukuran sisi pertama segitigag (dalam cm): "))
+    s2 = int(input("Masukkan ukuran sisi pertama segitiga (dalam cm): "))
     s3 = int(input("Masukkan ukuran sisi pertama segitiga (dalam cm): "))
     hitungSegitiga(s1, s2, s3)
 else:
